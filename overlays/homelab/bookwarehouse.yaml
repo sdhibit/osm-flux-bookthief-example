@@ -6,4 +6,4 @@ metadata:
   name: bookwarehouse
   namespace: bookwarehouse
 spec:
-  replicas: 1
+  replicas: 3
