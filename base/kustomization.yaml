@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - bookbuyer.yaml
+  - bookstore.yaml
+  - bookthief.yaml
+  - bookwarehouse.yaml

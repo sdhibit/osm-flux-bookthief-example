@@ -1,0 +1,9 @@
+---
+# Deploy bookwarehouse Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookwarehouse
+  namespace: bookwarehouse
+spec:
+  replicas: 1
