@@ -10,7 +10,7 @@ metadata:
     openservicemesh.io/metrics: enabled
 ---
 # Deploy bookbuyer Service Account
-appiVersion: v1
+apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: bookbuyer
